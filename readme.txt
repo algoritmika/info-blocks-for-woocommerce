@@ -1,8 +1,8 @@
 === Info Blocks for WooCommerce ===
-Contributors: algoritmika, anbinder
+Contributors: wpcodefactory, algoritmika, anbinder
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
-Tested up to: 5.8
+Tested up to: 6.1
 Stable tag: 1.4.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -13,7 +13,7 @@ Info blocks for WooCommerce.
 
 **Info Blocks for WooCommerce** plugin lets you add info blocks to numerous positions in WooCommerce.
 
-= Usage Example #1 =
+### &#9989; Usage Example #1 ###
 
 Add static text (e.g.: "30 days money return guarantee!") after "Add to cart" button for all products.
 
@@ -21,7 +21,7 @@ Add static text (e.g.: "30 days money return guarantee!") after "Add to cart" bu
 * Set block's content to `30 days money return guarantee!`
 * Set block's position to `Single product: Inside single product summary` and position's priority to `39`
 
-= Usage Example #2 =
+### &#9989; Usage Example #2 ###
 
 Add total sales number to the frontend meta section for all products.
 
@@ -29,7 +29,7 @@ Add total sales number to the frontend meta section for all products.
 * Set block's content to `Total sales: [alg_wc_ib_get_post_meta key="total_sales"]`
 * Set block's position to `Single product: Product meta end`
 
-= Usage Example #3 =
+### &#9989; Usage Example #3 ###
 
 Add static text (e.g.: "Free shipping for all orders over $35!") to cart and checkout pages.
 
@@ -37,7 +37,7 @@ Add static text (e.g.: "Free shipping for all orders over $35!") to cart and che
 * Set block's content to `Free shipping for all orders over $35!`
 * Set block's positions to `Cart: Before cart table` and `Checkout: Before order review`
 
-= Usage Example #4 =
+### &#9989; Usage Example #4 ###
 
 Add static text (e.g.: "Only today: ") before the price for all products.
 
@@ -45,7 +45,7 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 * Set block's content to `Only today:&nbsp;` (`&nbsp;` is a "non-breaking space" symbol)
 * Set block's position to `General: Before product price`
 
-= Available Positions =
+### &#9989; Available Positions ###
 
 **General**
 
@@ -145,20 +145,19 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 * Review order: After order total
 * Order Received (Thank You) page
 
-= Shortcodes =
+### &#9989; Shortcodes ###
 
 * `[alg_wc_ib_get_post_meta]` displays product's meta value, e.g.: `[alg_wc_ib_get_post_meta key="total_sales"]`
 * `[alg_wc_ib_get_option]` displays site's option, e.g.: `[alg_wc_ib_get_option option="admin_email"]`
 
-= Premium Version =
+### &#127942; Premium Version ###
 
 [Premium plugin version](https://wpfactory.com/item/info-blocks-for-woocommerce/) allows you to set additional **visibility** options for each block.
 
-= Feedback =
+### &#128472; Feedback ###
 
-* We are open to your suggestions and feedback.
+* We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
 * [Visit plugin site](https://wpfactory.com/item/info-blocks-for-woocommerce/).
-* Thank you for using or trying out one of our plugins!
 
 == Installation ==
 
@@ -167,6 +166,12 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 3. Start by visiting plugin settings at "WooCommerce > Info Blocks".
 
 == Changelog ==
+
+= 1.4.1 - 09/11/2022 =
+* Tested up to: 6.1.
+* WC tested up to: 7.1.
+* Readme.txt updated.
+* Deploy script added.
 
 = 1.4.0 - 19/10/2021 =
 * Dev - `[alg_wc_info_block]` shortcode added.
