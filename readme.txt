@@ -3,7 +3,7 @@ Contributors: wpcodefactory, algoritmika, anbinder
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
 Tested up to: 6.1
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -167,7 +167,7 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 
 == Changelog ==
 
-= 1.4.1 - 09/11/2022 =
+= 1.4.1 - 13/11/2022 =
 * Tested up to: 6.1.
 * WC tested up to: 7.1.
 * Readme.txt updated.
