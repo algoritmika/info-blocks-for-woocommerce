@@ -3,12 +3,13 @@
 Plugin Name: Info Blocks for WooCommerce
 Plugin URI: https://wpfactory.com/item/info-blocks-for-woocommerce/
 Description: Info blocks for WooCommerce.
-Version: 1.4.3
+Version: 1.4.4
 Author: WPFactory
 Author URI: https://wpfactory.com
 Text Domain: info-blocks-for-woocommerce
 Domain Path: /langs
-WC tested up to: 8.1
+WC tested up to: 9.1
+Requires Plugins: woocommerce
 */
 
 defined( 'ABSPATH' ) || exit;
@@ -29,7 +30,7 @@ if ( 'info-blocks-for-woocommerce.php' === basename( __FILE__ ) ) {
 	}
 }
 
-defined( 'ALG_WC_INFO_BLOCKS_VERSION' ) || define( 'ALG_WC_INFO_BLOCKS_VERSION', '1.4.3' );
+defined( 'ALG_WC_INFO_BLOCKS_VERSION' ) || define( 'ALG_WC_INFO_BLOCKS_VERSION', '1.4.4' );
 
 defined( 'ALG_WC_INFO_BLOCKS_FILE' ) || define( 'ALG_WC_INFO_BLOCKS_FILE', __FILE__ );
 

@@ -2,8 +2,8 @@
 Contributors: wpcodefactory, omardabbas, karzin, anbinder, algoritmika, kousikmukherjeeli
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
-Tested up to: 6.3
-Stable tag: 1.4.3
+Tested up to: 6.6
+Stable tag: 1.4.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -166,6 +166,10 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 3. Start by visiting plugin settings at "WooCommerce > Info Blocks".
 
 == Changelog ==
+
+= 1.4.4 - 30/07/2024 =
+* WC tested up to: 9.1.
+* Tested up to: 6.6.
 
 = 1.4.3 - 26/09/2023 =
 * WC tested up to: 8.1.
