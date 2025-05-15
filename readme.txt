@@ -1,19 +1,60 @@
-=== Info Blocks for WooCommerce ===
-Contributors: wpcodefactory, omardabbas, karzin, anbinder, algoritmika, kousikmukherjeeli
+=== Add Custom Messages Anywhere in WooCommerce ===
+Contributors: algoritmika, anbinder, karzin
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
-Tested up to: 6.6
-Stable tag: 1.4.4
+Tested up to: 6.8
+Stable tag: 2.0.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Info blocks for WooCommerce.
+Add any information blocks to your WooCommerce store, from product pages to cart and checkout, display tailored messages, product metadata, etc.
 
 == Description ==
 
-**Info Blocks for WooCommerce** plugin lets you add info blocks to numerous positions in WooCommerce.
+Add any information blocks to your WooCommerce store, from product pages to cart and checkout, display tailored messages, product metadata, or store options using dynamic content and shortcodes.
 
-### &#9989; Usage Example #1 ###
+The **Add Custom Messages Anywhere in WooCommerce** plugin allows you to enhance your WooCommerce site by adding customized content or "info blocks" to numerous positions throughout the platform, offering you a straightforward way to enrich your customer's browsing and shopping experience.
+
+You have the freedom to create multiple info blocks, each with distinctive content, positioning, and visibility settings, to tailor the shopping experience to suit your business strategy precisely.
+
+Whether it's spotlighting promotional offers or displaying static reassuring messages like money-back guarantees, the plugin provides an extensive range of positions to place these info blocks, from general settings to specific locations within product tabs. This allows for strategic placement of valuable information where it will have the highest impact.
+
+### 🚀 Dynamically Show Content Across Your Store ###
+
+Create & manage custom information blocks/sections within your WooCommerce store, craft and strategically place various types of information – whether promotional messages, special guarantees, or product-related details – across multiple locations in your store.
+
+This feature empowers you to enhance the shopping experience by providing relevant and timely information at key points in the customer journey, such as near product prices, within cart and checkout pages, and on order confirmation screens.
+
+### 🚀 Customizable Text Blocks for Promotions and Information ###
+
+Easily add static text blocks, like a "30 days money return guarantee", "Excellent customer service", "24/7 chat support" to product pages or global store areas.
+
+This feature is ideal for highlighting special offers or important information across your store.
+
+### 🚀 Add Info About Product Sales and Metadata ###
+
+Use the `[alg_wc_ib_get_post_meta]` shortcode to display product-related metadata like total sales numbers.
+
+This option allows you to offer important info to customers during their purchase journey, enhancing product credibility and transparency.
+
+### 🚀 Flexible Position/Priority Options ###
+
+Control where the blocks appear by defining the position and priority for each, the plugin offers a wide range of positioning options for info blocks.
+
+Select to show blocks on various positions, from before product prices to cart and checkout pages, ensuring that your messages are seen at the most impactful points in the customer journey.
+
+### 🚀 Utilization of Shortcodes for Extended Functionality ###
+
+Leverage shortcodes like `[alg_wc_ib_get_option]` to display site options (like an email) or product meta values (like an image or price), adding a layer of dynamic content to your store's info blocks.
+
+### ℹ How Does It Work? ###
+
+* Create a new info block via "WooCommerce > Info Blocks > Add New" from your admin dashboard.
+* For this newly created block, you must set: title (visible to admin only), content, and position.
+* Optionally, you can set visibility options (e.g., show info block for selected products only).
+* You can create as many different info blocks as you need. Each block will have its own content, position, visibility, etc.
+
+### ✅ Usage Example #1 ###
 
 Add static text (e.g.: "30 days money return guarantee!") after "Add to cart" button for all products.
 
@@ -21,7 +62,7 @@ Add static text (e.g.: "30 days money return guarantee!") after "Add to cart" bu
 * Set block's content to `30 days money return guarantee!`
 * Set block's position to `Single product: Inside single product summary` and position's priority to `39`
 
-### &#9989; Usage Example #2 ###
+### ✅ Usage Example #2 ###
 
 Add total sales number to the frontend meta section for all products.
 
@@ -29,7 +70,7 @@ Add total sales number to the frontend meta section for all products.
 * Set block's content to `Total sales: [alg_wc_ib_get_post_meta key="total_sales"]`
 * Set block's position to `Single product: Product meta end`
 
-### &#9989; Usage Example #3 ###
+### ✅ Usage Example #3 ###
 
 Add static text (e.g.: "Free shipping for all orders over $35!") to cart and checkout pages.
 
@@ -37,7 +78,7 @@ Add static text (e.g.: "Free shipping for all orders over $35!") to cart and che
 * Set block's content to `Free shipping for all orders over $35!`
 * Set block's positions to `Cart: Before cart table` and `Checkout: Before order review`
 
-### &#9989; Usage Example #4 ###
+### ✅ Usage Example #4 ###
 
 Add static text (e.g.: "Only today: ") before the price for all products.
 
@@ -45,7 +86,7 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 * Set block's content to `Only today:&nbsp;` (`&nbsp;` is a "non-breaking space" symbol)
 * Set block's position to `General: Before product price`
 
-### &#9989; Available Positions ###
+### ℹ Available Positions ###
 
 **General**
 
@@ -145,19 +186,23 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 * Review order: After order total
 * Order Received (Thank You) page
 
-### &#9989; Shortcodes ###
+### ℹ Visibility ###
+
+* You can set **visibility** options for each block: visible/invisible products/categories/tags.
+
+### ℹ Shortcodes ###
 
 * `[alg_wc_ib_get_post_meta]` displays product's meta value, e.g.: `[alg_wc_ib_get_post_meta key="total_sales"]`
 * `[alg_wc_ib_get_option]` displays site's option, e.g.: `[alg_wc_ib_get_option option="admin_email"]`
 
-### &#127942; Premium Version ###
+### ℹ More ###
 
-[Premium plugin version](https://wpfactory.com/item/info-blocks-for-woocommerce/) allows you to set additional **visibility** options for each block.
+* The plugin is **"High-Performance Order Storage (HPOS)"** compatible.
 
-### &#128472; Feedback ###
+### 🗘 Feedback ###
 
 * We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
-* [Visit plugin site](https://wpfactory.com/item/info-blocks-for-woocommerce/).
+* Head to the plugin [GitHub Repository](https://github.com/algoritmika/info-blocks-for-woocommerce) to find out how you can pitch in.
 
 == Installation ==
 
@@ -165,7 +210,34 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 2. Activate the plugin through the "Plugins" menu in WordPress.
 3. Start by visiting plugin settings at "WooCommerce > Info Blocks".
 
+== Frequently Asked Questions ==
+
+= How can I debug the output? =
+
+Add `alg_wc_ib_debug` to the URL, e.g.:
+
+```
+https://example.com/product/my-awesome-product/?alg_wc_ib_debug
+```
+
+= Are there any filters available for the developers? =
+
+Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
+
 == Changelog ==
+
+= 2.0.0 - 15/05/2025 =
+* Dev - Visibility (product, category, tag) options moved to the free version.
+* Dev - Security - Output escaped.
+* Dev - Security - Input sanitized.
+* Dev - Security - Nonces added.
+* Dev - "High-Performance Order Storage (HPOS)" compatibility.
+* Dev - PHP v8.2 compatibility (dynamic properties).
+* Dev - Admin settings descriptions updated.
+* Dev - Code refactoring.
+* Dev - Coding standards improved.
+* WC tested up to: 9.8.
+* Tested up to: 6.8.
 
 = 1.4.4 - 30/07/2024 =
 * WC tested up to: 9.1.

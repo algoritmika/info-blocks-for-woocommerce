@@ -1,6 +1,6 @@
 <?php
 /**
- * Info Blocks for WooCommerce - Meta Boxes - Positions
+ * Add Custom Messages Anywhere in WooCommerce - Meta Boxes - Positions
  *
  * @version 1.3.0
  * @since   1.1.0
@@ -8,7 +8,7 @@
  * @author  Algoritmika Ltd
  */
 
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+defined( 'ABSPATH' ) || exit;
 
 return apply_filters( 'alg_wc_info_blocks_positions', array(
 	__( 'General', 'info-blocks-for-woocommerce' ) => array(
