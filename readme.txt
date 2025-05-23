@@ -220,6 +220,11 @@ Add `alg_wc_ib_debug` to the URL, e.g.: `https://example.com/product/my-awesome-
 
 Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
 
+== Screenshots ==
+
+1. Info block example - Backend
+2. Info block example - Frontend
+
 == Changelog ==
 
 = 2.0.1 - 23/05/2025 =
