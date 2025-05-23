@@ -1,9 +1,9 @@
 === Add Custom Messages Anywhere in WooCommerce ===
-Contributors: algoritmika, anbinder, karzin
+Contributors: algoritmika, thankstoit, anbinder, karzin
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
 Tested up to: 6.8
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -202,7 +202,7 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 ### 🗘 Feedback ###
 
 * We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
-* Head to the plugin [GitHub Repository](https://github.com/algoritmika/info-blocks-for-woocommerce) to find out how you can pitch in.
+* Head to the plugin [GitHub Repository](https://github.com/thanks-to-it/info-blocks-for-woocommerce) to find out how you can pitch in.
 
 == Installation ==
 
@@ -214,17 +214,16 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 
 = How can I debug the output? =
 
-Add `alg_wc_ib_debug` to the URL, e.g.:
-
-```
-https://example.com/product/my-awesome-product/?alg_wc_ib_debug
-```
+Add `alg_wc_ib_debug` to the URL, e.g.: `https://example.com/product/my-awesome-product/?alg_wc_ib_debug`
 
 = Are there any filters available for the developers? =
 
 Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
 
 == Changelog ==
+
+= 2.0.1 - 23/05/2025 =
+* readme.txt updated.
 
 = 2.0.0 - 15/05/2025 =
 * Dev - Visibility (product, category, tag) options moved to the free version.
