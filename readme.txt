@@ -3,7 +3,7 @@ Contributors: algoritmika, thankstoit, anbinder, karzin
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
 Tested up to: 6.8
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -226,6 +226,10 @@ Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
 2. Info block example - Frontend
 
 == Changelog ==
+
+= 2.0.2 - 26/05/2025 =
+* Dev - Display raw info block content.
+* Dev - Developers - Add `alg_wc_info_blocks_display_sanitize_content` filter.
 
 = 2.0.1 - 23/05/2025 =
 * readme.txt updated.

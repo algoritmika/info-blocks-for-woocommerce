@@ -2,7 +2,7 @@
 /**
  * Add Custom Messages Anywhere in WooCommerce - Core Class
  *
- * @version 2.0.0
+ * @version 2.0.2
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd
@@ -203,7 +203,7 @@ class Alg_WC_Info_Blocks_Core {
 	/**
 	 * alg_wc_display_info_blocks.
 	 *
-	 * @version 2.0.0
+	 * @version 2.0.2
 	 * @since   1.0.0
 	 */
 	function alg_wc_display_info_blocks() {
@@ -211,14 +211,17 @@ class Alg_WC_Info_Blocks_Core {
 		$priority = $this->current_filter_priority();
 		if ( $position && $priority ) {
 			foreach ( $this->info_blocks[ $position ][ $priority ] as $block_id => $block_data ) {
-				echo wp_kses_post(
-					$this->get_info_block_content(
-						$block_data,
-						$block_id,
-						$position,
-						$priority
-					)
+				$content = $this->get_info_block_content(
+					$block_data,
+					$block_id,
+					$position,
+					$priority
 				);
+				if ( apply_filters( 'alg_wc_info_blocks_display_sanitize_content', false ) ) {
+					echo wp_kses_post( $content );
+				} else {
+					echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				}
 			}
 		}
 	}
